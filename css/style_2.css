@@ -145,7 +145,7 @@ body {
 }
 .block-second {
   padding: 100px 40px;
-  background-image: url('../img/cosmos10.jpg');
+  background-image: url('../img/cosmos12.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 30px 50%;
@@ -162,7 +162,7 @@ body {
   line-height: 2;
   max-width: 700px;
   box-shadow: 150px 0px 45px white;
-  background-color: rgb(42, 11, 116);
+  background-color: rgb(217, 121, 230);
 }
 .image-second {
   max-width: 700px;
@@ -170,7 +170,7 @@ body {
   border-radius: 30% 70% 33%;
   box-shadow: 20px -20px 35px white;
   border: 3px solid white;
-  background: url('../img/cosmos4.jpg') right / contain no-repeat fixed;
+  background: url('../img/cosmos2.jpg') right / contain no-repeat fixed;
   padding: 20%;
 }
 .text-middle {
@@ -203,7 +203,7 @@ body {
 .image-end {
   border-radius: 50%;
   padding-bottom: 800px;
-  background: url('../img/cosmos5.jpg') right 60% / 600px no-repeat fixed, url('../img/cosmos7.jpg') no-repeat;
+  background: url('../img/cosmos5.jpg') right 60% / 650px no-repeat fixed, url('../img/cosmos7.jpg') no-repeat;
 }
 .footer {
   padding: 50px 0;
