@@ -203,7 +203,7 @@ body {
 .image-end {
   border-radius: 50%;
   padding-bottom: 800px;
-  background: url('../img/cosmos5.jpg') right 60% / 650px no-repeat fixed, url('../img/cosmos7.jpg') no-repeat;
+  background: url('../img/kot-kosmonavt.png') center / 650px no-repeat fixed, url('../img/cosmos7.jpg') no-repeat;
 }
 .footer {
   padding: 50px 0;
