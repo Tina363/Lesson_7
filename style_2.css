@@ -1,0 +1,246 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Shizuru:regular&display=swap");
+
+@font-face {
+  font-family: "Arame";
+  src: url('../fonts/ArameMono-Thin.woff2') format("woff2"), url('../fonts/ArameMono-Thin.woff') format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Arame";
+  src: url('../fonts/Arame-Stencil.woff2') format("woff2"), url('../fonts/Arame-Stencil.woff') format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Arame";
+  src: url('../fonts/ArameMono-Bold.woff2') format("woff2"), url('../fonts/ArameMono-Bold.woff') format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-image: linear-gradient(
+    50deg,
+    hsl(240deg 79% 9%) 0%,
+    hsl(229deg 87% 11%) 3%,
+    hsl(223deg 100% 13%) 8%,
+    hsl(223deg 100% 15%) 15%,
+    hsl(223deg 100% 18%) 23%,
+    hsl(223deg 100% 20%) 32%,
+    hsl(223deg 100% 23%) 41%,
+    hsl(223deg 100% 25%) 51%,
+    hsl(223deg 100% 28%) 60%,
+    hsl(223deg 100% 31%) 69%,
+    hsl(223deg 100% 33%) 76%,
+    hsl(223deg 100% 36%) 83%,
+    hsl(223deg 100% 39%) 88%,
+    hsl(224deg 100% 42%) 92%,
+    hsl(224deg 100% 44%) 96%,
+    hsl(224deg 100% 47%) 98%,
+    hsl(224deg 100% 50%) 100%);
+  color: aliceblue;
+  font-size: 24px;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Redressed", "Arial", sans-serif;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+.container {
+  max-width: 1300px;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-shadow: 0px 20px 15px white;
+  background: url('../img/bg.jpg') 0 10% / 150px repeat-x fixed;
+}
+.container-small {
+  margin: 20px;
+  padding: 30px 35px;
+  border: 6px double white;
+  box-shadow: 0px -10px 15px white;
+  border-radius: 10px;
+}
+.header {
+  padding: 150px 0 80px;
+  text-align: center;
+}
+.title {
+  font-family: "Arame", "Arial", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 auto 50px;
+  max-width: 1000px;
+  border-radius: 35%;
+  box-shadow: 0px -20px 15px white;
+  padding: 30px 0;
+  border: 3px solid white;
+  text-shadow: 10px -10px 15px white;
+}
+.item {
+  display: inline-block;
+  padding: 10px 50px;
+  background-image: url('../img/wow.jpg');
+  background-color: rgb(114, 46, 179);
+  background-position: 5px center;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  font-size: 34px;
+  border: 1px solid white;
+  border-top: none;
+  margin-right: 20px;
+  border-radius: 10px;
+  outline: 6px dotted rgb(175, 102, 224);
+  box-shadow: 0px 20px 15px white;
+}
+.link {
+  text-decoration: overline;
+  text-transform: uppercase;
+  text-shadow: 10px 10px 15px white;
+  font-family: "Shizuru", "Arial", sans-serif;
+}
+.subtitle {
+  font-size: 36px;
+  text-align: center;
+  text-shadow: -20px -10px 6px rgb(233, 225, 225);
+  font-family: "Shizuru", "Arial", sans-serif;
+}
+.subtitle-first {
+  max-width: 800px;
+  padding: 20px 10px 30px;
+  margin: 0 auto 30px;
+  border-radius: 10%;
+  border: 5px dashed whitesmoke;
+  background-image: url('../img/cosmos7.jpg');
+}
+.block-first {
+  background-color: rgb(114, 20, 202);
+  padding: 70px;
+  border-radius: 30%;
+  margin-bottom: 40px;
+}
+.text-top {
+  padding: 50px;
+  letter-spacing: 4px;
+  text-align: right;
+  margin-bottom: 20px;
+}
+.image {
+  max-width: 800px;
+  overflow: hidden;
+}
+.image img {
+  max-width: 100%;
+}
+.image-first {
+  margin: 0 auto;
+  border-radius: 40%;
+  box-shadow: 20px -20px 35px white;
+}
+.block-second {
+  padding: 100px 40px;
+  background-image: url('../img/cosmos12.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px 50%;
+}
+.subtitle-second {
+  text-align: left;
+  margin-bottom: 20px;
+  padding-left: 50px;
+  border: 12px double #fff;
+  border-top: none;
+  border-left: none;
+  border-radius: 0 50% 50% 0;
+  outline: 1px solid #fff;
+  line-height: 2;
+  max-width: 700px;
+  box-shadow: 150px 0px 45px white;
+  background-color: rgb(217, 121, 230);
+}
+.image-second {
+  max-width: 700px;
+  margin-left: auto;
+  border-radius: 30% 70% 33%;
+  box-shadow: 20px -20px 35px white;
+  border: 3px solid white;
+  background: url('../img/cosmos2.jpg') right / contain no-repeat fixed;
+  padding: 20%;
+}
+.text-middle {
+  max-width: 700px;
+  margin-bottom: 20px;
+}
+.text-middle2 {
+  max-width: 100%;
+}
+.block-end {
+  padding: 60px 0;
+}
+.container-mini {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.subtitle-third {
+  margin: 0 auto 60px;
+  background-color: rgba(180, 20, 146, 0.5);
+  padding: 20px;
+  box-shadow: 10px 20px 25px rgb(178, 82, 226);
+  border-radius: 10px 10px 50% 50%;
+  border: 3px dotted white;
+  max-width: 800px;
+}
+.text-bottom {
+  margin-bottom: 50px;
+  color: rgb(178, 82, 226);
+}
+.image-end {
+  border-radius: 50%;
+  padding-bottom: 800px;
+  background: url('../img/cosmos5.jpg') right 60% / 650px no-repeat fixed, url('../img/cosmos7.jpg') no-repeat;
+}
+.footer {
+  padding: 50px 0;
+  font-family: "Arame", "Arial", sans-serif;
+  text-align: center;
+  font-weight: 300;
+}
+.bottom-list {
+  padding: 0 50px;
+  margin-bottom: 50px;
+}
+.bottom-item {
+  display: inline-block;
+  margin-right: 50px;
+  padding: 15px 70px 15px 20px;
+  background: url('../img/cosmos1.jpg') right 0 / 50px no-repeat, rgb(178, 82, 226, 0.4);
+  border: 5px double white;
+  border-radius: 10%;
+}
+.bottom-item2 {
+  background: url('../img/cosmos1.jpg') right bottom / 50px no-repeat, rgb(178, 82, 226, 0.4);
+}
+.figma {
+  font-weight: 400;
+  padding: 5px 25px;
+  box-shadow: 5px 10px 25px rgb(191, 151, 211);
+  border: 5px double white;
+  background-color: cornflowerblue;
+}
+.footer-link {
+  padding: 40px 0;
+  background-image: url('../img/cosmos3.jpg');
+  background-repeat: round;
+}
+
+
+
+
+
+
